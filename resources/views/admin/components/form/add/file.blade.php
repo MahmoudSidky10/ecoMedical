@@ -1,5 +1,5 @@
 <div class="form-group @if(isset($class))  {{$class}} @endif ">
-    <label for="exampleInputuname" class="required">{{$label}}</label>
+    <label for="exampleInputuname" class="">{{$label}}</label>
     <div class="input-group">
         <input type="file"
                accept="image/x-png,image/gif,image/jpeg"
