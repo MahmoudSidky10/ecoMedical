@@ -1,0 +1,480 @@
+#slider2 .intro-slide1 .banner-content {
+  max-width: 38.5rem;
+  left: 9.8%;
+  margin-top: -0.2rem;
+}
+#slider2 .intro-slide1 .banner-subtitle {
+  margin-bottom: 1.4rem;
+  font-size: 1.6em;
+  letter-spacing: 0.025em;
+}
+#slider2 .intro-slide1 .banner-title {
+  font-size: 4.5em;
+  line-height: 1.07;
+  margin-bottom: 3.1rem;
+}
+#slider2 .intro-slide1 .banner-title span {
+  font-weight: 800;
+}
+#slider2 .intro-slide1 .slide-image {
+  bottom: 0;
+  left: 50%;
+  min-width: 47.2rem;
+}
+#slider2 .banner .banner-content {
+  position: relative;
+  z-index: 1;
+}
+#slider2 .y-50 {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+#slider2 .custom-dots {
+  position: relative;
+  text-align: center;
+  margin-top: -3.3rem;
+  z-index: 1;
+}
+#slider2 .icon-box-wrapper {
+  margin-top: 2.8rem;
+  padding: 2.6rem 0 2.3rem;
+  border: 1px solid #e5e5e5;
+}
+#slider2 .icon-box-wrapper .icon-box-title {
+  margin-bottom: 0.6rem;
+}
+#slider2 .intro-section .banner {
+  min-height: 51rem;
+}
+#slider .intro-slide {
+  min-height: 51rem;
+}
+#slider2 .banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  overflow: hidden;
+}
+#slider2 .slide-image {
+  position: absolute;
+}
+/* ---------------------------------------------------------------------------------------- */
+#slider3 .intro-slide1 .banner-content{
+  right: 4.9%;
+}
+#slider3 .intro-slide2 .banner-content {
+  left: 7.3%;
+  margin-top: -0.2rem;
+}
+#slider3 .intro-slide2 .banner-subtitle {
+  margin-bottom: 6px;
+  font-size: 1.8em;
+  letter-spacing: .025em;
+}
+#slider3 .intro-slide2 .banner-title {
+  font-size: 4.2em;
+}
+#slider3 .intro-slide2 .banner-price-info {
+  margin-bottom: 0.9rem;
+  font-size: 3.8em;
+  line-height: 1.15;
+}
+#slider3 .intro-slide3 .banner-content {
+  max-width: 35.7rem;
+left: 8.5%;
+  margin-top: -0.2rem;
+}
+/* ---------------------------------------------------------------------------------------- */
+#slider4 .intro-slide {
+  min-height: 509px;
+}
+#slider4 .intro-slide3 .banner-content {
+  left: 8.6%;
+  bottom: 12%;
+}
+#slider4 .intro-slide3 .banner-subtitle {
+  margin-bottom: 0.7rem;
+  font-size: 2em;
+}
+#slider4 .intro-slide3 .banner-title {
+  margin-bottom: 0.2rem;
+  font-size: 3.6em;
+  font-weight: 800;
+}
+#slider4 .intro-slide3 .banner-price-info {
+  font-size: 2em;
+}
+#slider4 .intro-slide2 .banner-content {
+  left: 6.1%;
+  margin-top: -0.2rem;
+}
+#slider4 .intro-slide1 p {
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+#slider4 .intro-slide1 .old-price {
+  padding: 0.2rem 1rem 0.1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.4;
+  font-size: 2.4em;
+  font-weight: 800;
+}
+#slider4 .intro-slide1 .new-price {
+  font-size: 4.2em;
+  font-weight: 800;
+}
+#slider4 .intro-banner .content-bottom {
+  left: 9%;
+  bottom: 9.3%;
+}
+#slider4 .intro-banner .content-top {
+  top: 10.8%;
+  left: 9%;
+}
+#slider4 .intro-banner figure img {
+  height: 24.5rem;
+  min-height: 20rem;
+}
+/* ---------------------------------------------------------------------------------------- */
+#slider5 .intro-wrapper .owl-nav-inner .owl-nav .owl-next,
+#slider5 .intro-wrapper .owl-nav-inner .owl-nav .owl-prev {
+  margin-top: 0.3rem;
+  color: #fff !important;
+}
+#slider5 .intro-wrapper .owl-nav-inner .owl-nav .owl-next,
+#slider5 .intro-wrapper .owl-nav-inner .owl-nav .owl-prev {
+  margin-top: 0.3rem;
+  color: #fff !important;
+}
+#slider5 .font-secondary {
+  font-family: "Zeyada",Sans-serif !important;
+}
+#slider5 .intro-slide2 .banner-content {
+  left: 10.5%;
+}
+#slider5 .intro-slide .banner-title {
+  font-size: 4em;
+  letter-spacing: -.035em;
+}
+#slider5 .intro-wrapper .owl-nav-inner .owl-nav .owl-prev,
+#slider5 .intro-wrapper .owl-nav-inner .owl-nav .owl-next {
+  margin-top: 0.3rem;
+  color: #fff;
+}
+#slider5 .owl-nav-inner .owl-nav .owl-prev {
+  left: 0;
+}
+#slider5 .owl-nav-inner .owl-nav .owl-next {
+  right: 0;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+#fiiter3 .nav-item .nav-link {
+  padding: 1.1rem 1.9rem;
+  border: 1px solid #ccc !important;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+#topCatogry4 .category-group-image .category-name {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  letter-spacing: -.025em;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+.deals4 .product-countdown-container {
+  display: flex;
+  margin-bottom: 0.7rem;
+  padding: 0.4rem 0.8rem 0.3rem;
+  border-radius: 0.3rem;
+}
+/* ---------------------------------------------------------------------------------------- */
+#clinent2{
+  border: 1px solid #eee;
+}
+#clinent2{
+  border-radius: 0.5rem !important; 
+overflow: hidden !important;
+}
+/* ---------------------------------------------------------------------------------------- */
+#deals3 .product-list {
+  padding: 0.8rem;
+  border: 1px solid #ed711b;
+  display: flex;
+  align-items: center;
+}
+#deals3 .product {
+  position: relative;
+  font-family: Poppins,sans-serif;
+  font-size: 1rem;
+  color: #020101;
+  transition: .3s;
+}
+#deals3 .product-list .product-details {
+  flex: 0 0 calc(51.5% - 2rem);
+  max-width: calc(51.5% - 2rem);
+  padding-bottom: 0.6rem;
+}
+#deals3 .product-list .product-media {
+  flex: 0 0 48.5%;
+  max-width: 48.5%;
+}
+#deals3 .product-media {
+  position: relative;
+  margin-bottom: 0;
+  transition: box-shadow .35s;
+}
+#deals3 .product-details {
+  position: relative;
+  padding-top: 1.7rem;
+  background-color: #fff;
+  transition: box-shadow .3s;
+}
+#deals3 .product-list .product-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+#deals3 .ratings-container {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+}
+#deals3 .ratings-full {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+#deals3 .ratings-full, 
+#deals3 .ratings {
+  position: relative;
+  font-family: 'wolmart';
+  letter-spacing: .2em;
+}
+#deals3 .product-list .product-price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+#deals3 .product-list .product-desc {
+  margin-bottom: 3.9rem;
+  font-size: 1.3rem;
+  color: #666;
+  line-height: 1.9;
+}
+#deals3 .product-list .product-desc li {
+  line-height: 2;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative;
+  padding-left: 2rem;
+}
+#deals3 .product-list .product-action {
+  position: relative;
+  visibility: visible;
+  opacity: 1;
+}
+#deals3 .product-action {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  z-index: 10;
+  transition: opacity .3s, visibility .3s, bottom .3s;
+  opacity: 0;
+}
+/* ---------------------------------------------------------------------------------------- */
+#toCatogry3 .category-wrapper {
+  height: calc(100% - 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  padding: 2.95rem 4rem;
+}
+#toCatogry3 .category-wrapper li {
+  position: relative;
+  color: #333;
+}
+#toCatogry3 .category-wrapper a {
+  display: flex;
+  align-self: center;
+  padding: 2.05rem 0;
+  color: inherit;
+}
+#toCatogry3 .category-wrapper li::after {
+  content: '\e913';
+  font-family: 'wolmart';
+  position: absolute;
+  right: -1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+  transition: right .3s;
+}
+#toCatogry3 .category-wrapper i {
+  margin-right: 1.5rem;
+  width: 2.1rem;
+  font-size: 2.1rem;
+}
+#toCatogry3 .category-wrapper li:hover {
+  color: #ed711b;
+}
+#toCatogry3 .category-wrapper li:hover::after {
+  right: -1.8rem;
+}
+/* ---------------------------------------------------------------------------------------- */
+
+#deals2 .product-lg {
+  padding: 2.4rem 2rem 1.2rem;
+  border: 1px solid #26c;
+}
+
+#deals2 .product-lg .product-details {
+  padding-bottom: 1.4rem;
+}
+#deals2 .product-lg .product-name {
+  margin-bottom: 0.6rem;
+  font-size: 1.5rem;
+}
+#deals2 .product-lg .product-price {
+  font-size: 1.8rem;
+}
+
+#deals2 .owl-nav-top .owl-nav {
+  top: -4.8rem;
+}
+#deals2 .owl-nav-top .owl-nav .owl-prev,
+#deals2 .owl-nav-top .owl-nav .owl-next {
+  width: auto;
+  height: auto;
+}
+#deals2 .owl-nav-top .owl-nav .owl-prev:not(.disabled),
+#deals2 .owl-nav-top .owl-nav .owl-next:not(.disabled) {
+  color: #666;
+}
+#deals2 .owl-nav-top .owl-nav .owl-prev:not(.disabled):hover,
+#deals2 .owl-nav-top .owl-nav .owl-next:not(.disabled):hover {
+  color: #26c;
+}
+#deals2 .owl-nav-top .owl-nav i {
+  font-size: 1.6rem;
+}
+#deals2 .owl-nav-top .owl-nav .owl-prev {
+  left: -3.7rem;
+}
+#deals2 .owl-nav-top .owl-nav .owl-next {
+  right: 0.3rem;
+}
+/* ------------------------------------------------------------------------------------- */
+
+#Banner2 .banner-grid .btn {
+  font-size: 1.3rem;
+}
+#Banner2 .banner-grid .btn i {
+  font-size: 1.3rem;
+  margin: 0 0 0 0.7rem;
+}
+#Banner2 .banner-lg .banner-content {
+  left: 5.8%;
+  margin-top: -0.7rem;
+}
+#Banner2 .banner-lg .banner-subtitle {
+  font-size: 2.2em;
+}
+#Banner2 .banner-lg .banner-title {
+  margin-bottom: 0.6rem;
+}
+#Banner2 .banner-lg p {
+  margin-bottom: 2.2rem;
+}
+#Banner2 .banner-lg .btn {
+  padding: 0.97em 2.05em;
+}
+#Banner2 .banner-md .banner-content {
+  top: 11.4%;
+  left: 4.5%;
+}
+#Banner2 .banner-md .banner-title {
+  margin-bottom: 2.3rem;
+}
+#Banner2 .banner-sm .text-center {
+  padding-top: 0.6rem;
+}
+#Banner2 .banner-sm .text-center .banner-title {
+  font-size: 10em;
+  line-height: 0.68;
+  color: #f8b317;
+}
+#Banner2 .banner-sm .text-center .banner-price-info {
+  font-size: 1.8em;
+}
+#Banner2 .banner-sm .text-center .btn::after {
+  margin-top: 0.2rem;
+  transform: scaleX(1);
+  border-top: 2px solid;
+}
+#Banner2 .banner-sm .banner-content:not(.text-center) {
+  left: 9.3%;
+  bottom: 10.2%;
+}
+#Banner2 .banner-sm .banner-content:not(.text-center) .banner-subtitle {
+  margin-bottom: 2px;
+  font-size: 1.4rem;
+}
+#Banner2 .banner-sm .banner-content:not(.text-center) .banner-title {
+  margin-bottom: 2.3rem;
+  font-size: 2em;
+}
+
+.done_discount{
+  color: green;
+  display: block;
+  width: 100%;
+}
+.error_discount{
+  color: red;
+  display: block;
+  width: 100%;
+}
+.third_level_cat{
+  position: relative;
+}
+#v1 > li:not(:last-child) > a {
+  border-bottom: 1px solid #eee;
+}
+.third_level_catogery > li:not(:last-child) > a {
+  border-bottom: 1px solid #eee;
+}
+.third_level_catogery li {
+  width: 100% !important;
+}
+.third_level_catogery li a{
+  width: 100% !important;
+}
+#v1 li a{
+  padding: 15px 0 15px 0;
+}
+#v1 > li:last-child > a {
+  padding: 15px 0 0 0;
+}
+.header-top{
+  display: none;
+}

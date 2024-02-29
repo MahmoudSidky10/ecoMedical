@@ -1,0 +1,9 @@
+<div class="form-group">
+    <label for="exampleInputuname">{{$label}}</label>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><i class="{{$icon}}"></i></span>
+        </div>
+        <textarea  style="direction: @if(app()->getLocale() == "en") ltr @else rtl @endif"  name="{{$name}}" rows="5" cols="5" placeholder="{{$placeholder}}" type="text" class="form-control"></textarea>
+    </div>
+</div>

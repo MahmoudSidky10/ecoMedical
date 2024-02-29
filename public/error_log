@@ -1,0 +1,66 @@
+[15-Feb-2024 11:59:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 11:59:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 12:00:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 12:00:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Feb-2024 12:00:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:unix_sock...', 'project', '', Array)
+#1 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:unix_sock...', 'project', '', Array)
+#2 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:unix_sock...', 'project', '', Array)
+#3 /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connect in /home/gbmzku886tt3/public_html/ghurnathamedical.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
