@@ -8,6 +8,7 @@ use App\Models\Product;
 use App\Models\ProductOption;
 use App\Models\ProductProperty;
 use App\Models\ProductView;
+use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -33,7 +34,11 @@ class IndexController extends Controller
 
         $isHasSale = $item->price_sale ? 1 : 0;
 
-        return view("site.product.details", compact("item", 'next', "prev", "randProducts", "isHasSale"));
+        $productPrice = $item->price_sale ? $item->price_sale : $item->price;
+
+        $setting = Setting::first();
+
+        return view("site.product.details", compact("item", 'next', "prev", "randProducts", "isHasSale", 'setting', 'productPrice'));
     }
 
     public function offerProducts(Request $request)

@@ -103,6 +103,18 @@
                                                         <label style="color: darkred;background-color: darkred;border-radius: 10px;color: #F7F8FA;padding: 0 5px">  منتهي من الخزن  </label>
                                                     @endif</span>
                                             </div>
+
+                                            <div class="product-sku pt-2 ">
+
+                                                @if($productPrice >= $setting->delivery_min_price)
+                                                    <span>     {{__("شامل التوصيل")}} </span>
+                                                @else
+                                                    <span>     {{__("غير شامل التوصيل")}} </span>
+                                                @endif
+
+                                            </div>
+
+
                                             <div class="  " style="padding-top: 15px">
                                                 <div class="product-link-wrapper d-flex">
                                                     @auth
