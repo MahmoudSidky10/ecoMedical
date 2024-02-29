@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string("slug")->nullable();
             $table->string("name_ar")->nullable();
             $table->string("name_en")->nullable();
+            $table->longText("description")->nullable();
             $table->string("model_number")->nullable();
             $table->double("price")->nullable();
             $table->double("price_sale")->nullable();

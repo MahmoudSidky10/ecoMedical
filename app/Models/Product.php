@@ -69,6 +69,7 @@ class Product extends Model
         "slug",
         "name_ar",
         "name_en",
+        "description",
         "model_number",
         "price",
         "price_sale",

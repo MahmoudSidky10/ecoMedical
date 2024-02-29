@@ -78,6 +78,7 @@
 
     @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-user','label' => trans('language.name_ar'),'name'=>'name_ar', 'placeholder'=>trans('language.name_ar' ),'valid'=>trans('language.vaildation')])
     @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-user','label' => trans('language.name_en'),'name'=>'name_en', 'placeholder'=>trans('language.name_en' ),'valid'=>trans('language.vaildation')])
+    @includeIf('admin.components.form.add.textarea', ['icon' => 'fa fa-user','label' => trans('language.description'),'name'=>'description', 'placeholder'=>trans('language.description' ),'valid'=>trans('language.vaildation')])
     @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-user','label' => trans('language.price'),'name'=>'price', 'placeholder'=>trans('language.price' ),'valid'=>trans('language.vaildation')])
     @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-user','label' => trans('language.price_sale'),'name'=>'price_sale', 'placeholder'=>trans('language.price_sale' ),'valid'=>trans('language.vaildation')])
     @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-user','label' => trans('language.model_number'),'name'=>'model_number', 'placeholder'=>trans('language.model_number' ),'valid'=>trans('language.vaildation')])

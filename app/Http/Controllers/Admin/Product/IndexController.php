@@ -48,8 +48,10 @@ class IndexController extends Controller
             "stock_quantity" => "required|numeric",
             "name_ar" => "required",
             "price" => "required",
+            "description" => "required",
             "main_category_id" => "required",
         ], [
+            "description.required" => "لابد من ادخال وصف المنتج ",
             "name_ar.required" => "لابد من ادخال اسم المنتج ",
             "price.required" => "لابد من ادخال سعر المنتج ",
             "main_category_id.required" => "لابد من ادخال قسم المنتج ",
