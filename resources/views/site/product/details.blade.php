@@ -89,6 +89,13 @@
                                                     {{__("language.SKU")}} : <span> {{$item->model_number}}</span>
                                                 </div>
                                             @endif
+
+                                            <div class="product-sku">
+                                                <span class="alert alert-info">
+                                                {!! $item->is_vat_included == 1 ? "المنتج شامل الضريبة"  : "المنتج غير شامل الضريبة" !!}
+                                                </span>
+                                            </div>
+
                                             <div class="product-sku pt-2">
                                                 {{__("language.stock_quantity")}} :
                                                 <span> @if($item->stock_quantity != 0 )
