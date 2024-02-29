@@ -7,8 +7,10 @@
         <!-- Start of Breadcrumb -->
         <nav class="breadcrumb-nav container">
             <ul class="breadcrumb bb-no">
-                <li> <a href="{{route("site.home")}}">{{__("language.home")}}</a> </li>
-                <li> <a href="{{route("site.category-products",[$item->category_id,$item->category->slug])}}"> {{$item->category->name}} </a> </li>
+                <li><a href="{{route("site.home")}}">{{__("language.home")}}</a></li>
+                <li>
+                    <a href="{{route("site.category-products",[$item->category_id,$item->category->slug])}}"> {{$item->category->name}} </a>
+                </li>
                 <li> {{$item->name}} </li>
             </ul>
             <ul class="product-nav list-style-none">
@@ -89,7 +91,9 @@
                                             @endif
                                             <div class="product-sku pt-2">
                                                 {{__("language.stock_quantity")}} :
-                                                <span> @if($item->stock_quantity != 0 ) {{$item->stock_quantity}} @else
+                                                <span> @if($item->stock_quantity != 0 )
+                                                        {{$item->stock_quantity}}
+                                                    @else
                                                         <label style="color: darkred;background-color: darkred;border-radius: 10px;color: #F7F8FA;padding: 0 5px">  منتهي من الخزن  </label>
                                                     @endif</span>
                                             </div>
@@ -98,7 +102,8 @@
                                                     @auth
                                                         @include("site.layout.add-to-cart" , ['product' => $item])
 
-                                                        <a onclick="storeItemIntoWishList({{$item->id}})" style="margin:  0 10px"
+                                                        <a onclick="storeItemIntoWishList({{$item->id}})"
+                                                           style="margin:  0 10px"
                                                            class="btn-product-icon btn-wishlist btn-wishlist-product-{{$item->id}} @if($item->checkWishList() == true)  w-icon-heart-full @else w-icon-heart @endif "><span></span></a>
 
                                                         <a onclick="storeItemIntoCompareList({{$item->id}})"
@@ -131,24 +136,7 @@
                                     <hr class="product-divider">
 
                                     <p inert>
-
-                                        جهاز قياس الحرارة بالفم Welch Allyn-692
-
-                                        تصميم مريح – مريح للإمساك به وسهل الاستخدام ومتين للغاية.
-
-                                        تعمل اغطية الجهاز القابلة للتبديل والإزالة على تقليل مخاطر التلوث المتبادل.
-
-                                        تعرض شاشة LCD الكبيرة درجات الحرارة بالفهرنهايت أو مئوية.
-
-                                        التثبيت على الحائط متضمن مع جميع التكوينات.
-
-                                        سريع: يلتقط بسرعة قراءات دقيقة لجميع أنواع المرضى.
-
-                                        شاشة LCD كبيرة بإضاءة خلفية مع إمكانية تحديد الموقع.
-
-                                        تخزين مناسب لـ 25 غطاء .
-
-                                        يأخذ ما يقرب من 5000 قراءة على 3 بطاريات AA.
+                                        {{$item->description}}
                                     </p>
 
                                 </div>
