@@ -91,9 +91,7 @@
                                             @endif
 
                                             <div class="product-sku">
-                                                <span class="alert alert-info">
-                                                {!! $item->is_vat_included == 1 ? "المنتج شامل الضريبة"  : "المنتج غير شامل الضريبة" !!}
-                                                </span>
+                                                {{__("حالة الضريبة")}} : <span> {!! $item->is_vat_included == 1 ? "المنتج شامل الضريبة"  : "المنتج غير شامل الضريبة" !!}</span>
                                             </div>
 
                                             <div class="product-sku pt-2">
