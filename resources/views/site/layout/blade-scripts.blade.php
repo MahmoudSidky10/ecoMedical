@@ -51,7 +51,7 @@
             $(".btn-wishlist-product-" + item_id).addClass("w-icon-heart-full")
             $(".btn-wishlist-product-" + item_id).css("color", "#42a4e8")
 
-            fireAlert("success", "Product has been added to your wishlist .");
+            fireAlert("success", "المنتج قد نم اضافتها لقائمة الغسيل الخاصة بك .");
         }
 
         function decreaseWishListCount(item_id) {
@@ -66,7 +66,7 @@
             $(".btn-wishlist-product-" + item_id).addClass("w-icon-heart")
             $(".btn-wishlist-product-" + item_id).css("color", "black")
 
-            fireAlert("success", "Product has been removed from your wishlist .");
+            fireAlert("success", "تمت إزالة المنتج من قائمة الرغبات الخاصة بك.");
         }
 
         // =========================================================//
@@ -110,7 +110,7 @@
             $(".btn-compare-product-" + item_id).removeClass("w-icon-compare")
             $(".btn-compare-product-" + item_id).css("color", "#42a4e8")
 
-            fireAlert("success", "Product has been added to your compare list .");
+            fireAlert("success", "تمت إضافة المنتج إلى قائمة المقارنة الخاصة بك.");
         }
 
         function decreaseCompareCount(item_id) {
@@ -125,7 +125,7 @@
             $(".btn-compare-product-" + item_id).addClass("w-icon-compare")
             $(".btn-compare-product-" + item_id).css("color", "black")
 
-            fireAlert("success", "Product has been removed from your compare list .");
+            fireAlert("success", "تمت إزالة المنتج من قائمة المقارنة الخاصة بك.");
         }
 
         // ====================================================== //
@@ -189,7 +189,7 @@
 
             $(".cart-btn-txt").text("{{__("language.remove_from_cart")}}");
 
-            fireAlert("success", "Product has been added to your cart list .");
+            fireAlert("success", "تمت إضافة المنتج إلى قائمة سلة التسوق الخاصة بك.");
         }
 
         function decreaseCartCount(item_id) {
@@ -206,14 +206,14 @@
 
             $(".cart-btn-txt").text("{{__("language.add_to_cart")}}");
 
-            fireAlert("success", "Product has been removed from your cart list .");
+            fireAlert("success", "تمت إزالة المنتج من قائمة سلة التسوق الخاصة بك.");
         }
 
         function quantityPlusAction(item_id, price, max) {
             var value = parseInt(document.getElementById('number-' + item_id).value, 10);
             if (value == max) {
                 document.getElementById('number-' + item_id).value = max;
-                fireAlert("error", "this product has maximum to add to your cart .", 2500);
+                fireAlert("error", "هذا المنتج لديه الحد الأقصى لإضافته إلى سلة التسوق الخاصة بك.", 2500);
             } else {
                 value = isNaN(value) ? 0 : value;
                 value++;
@@ -239,7 +239,7 @@
             var value = parseInt(document.getElementById('number-' + item_id).value, 10);
             if (value == 1) {
                 document.getElementById('number-' + item_id).value = 1;
-                fireAlert("error", "this product has minimum to add to your cart .", 2500);
+                fireAlert("error", "هذا المنتج لديه الحد الأدنى لإضافته إلى سلة التسوق الخاصة بك.", 2500);
             } else {
                 value = isNaN(value) ? 0 : value;
                 value < 1 ? value = 1 : '';
