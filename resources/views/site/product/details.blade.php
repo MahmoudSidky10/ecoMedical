@@ -90,8 +90,9 @@
                                                 </div>
                                             @endif
 
-                                            <div class="product-sku">
-                                                {{__("حالة الضريبة")}} : <span> {!! $item->is_vat_included == 1 ? "المنتج شامل الضريبة"  : "المنتج غير شامل الضريبة" !!}</span>
+                                            <div class="product-sku pt-2 ">
+                                                {{__("حالة الضريبة")}} :
+                                                <span> {!! $item->is_vat_included == 1 ? "المنتج شامل الضريبة"  : "المنتج غير شامل الضريبة" !!}</span>
                                             </div>
 
                                             <div class="product-sku pt-2">
@@ -207,6 +208,5 @@
         <!-- End of Page Content -->
     </main>
     <!-- End of Main -->
-
 
 @endsection
