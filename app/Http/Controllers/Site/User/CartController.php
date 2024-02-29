@@ -10,11 +10,14 @@ use App\Models\Coupon;
 use App\Models\CouponUser;
 use App\Models\Governorate;
 use App\Models\Order;
+use App\Models\User;
 use App\Models\OrderProduct;
 use App\Models\Product;
 use App\Models\ProductOption;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Paytabscom\Laravel_paytabs\Facades\paypage; 
+
 
 class CartController extends Controller
 {
@@ -153,7 +156,24 @@ class CartController extends Controller
     public function invoice($order_guid)
     {
         $order = Order::where("guid", $order_guid)->first();
-        return view("site.user.cart.thanks", compact("order"));
+        $user = User::find($order->user_id);
+        
+        $return   = "";
+        $callback = "";
+        
+        $pay = paypage::sendPaymentCode("mada")
+            ->sendTransaction('sale','ecom')
+            ->sendCart($order->id, (float)$order->total, $order->id)
+            ->sendCustomerDetails($user->name, $user->email, $user->mobile, "street name", "city name", "state name", "country name", "123456", "12345678")
+           // ->sendShippingDetails($same_as_billing, $name = null, $email = null, $phone = null, $street1= null, $city = null, $state = null, $country = null, $zip = null, $ip = null)
+            ->sendHideShipping($on = false)
+            ->sendURLs($return, $callback)
+            ->sendLanguage("ar")
+            ->sendFramed($on = false)
+            ->create_pay_page(); // to initiate payment page
+
+
+        return view("site.user.cart.checkout", compact("order",'pay'));
     }
 
 }
