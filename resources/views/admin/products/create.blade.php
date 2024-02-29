@@ -11,7 +11,6 @@
 @section('page-title',trans('language.products'))
 @section('form-groups')
 
-
     <div class="col-md-12">
         <div class="row">
             @includeIf('admin.components.form.add.file', ['class' => 'col-md-2', 'icon' => 'fa fa-check','label' => trans('language.image'),'name'=>'images[]', 'max'=>'2'])
@@ -86,6 +85,7 @@
     @includeIf('admin.components.form.add.number', ['icon' => 'fa fa-user','label' => trans('language.stock_quantity'),'name'=>'stock_quantity', 'placeholder'=>trans('language.stock_quantity' ),'valid'=>trans('language.vaildation')])
     @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-user','label' => trans('language.warranty_years'),'name'=>'warranty_years', 'placeholder'=>trans('language.warranty_years' ),'valid'=>trans('language.vaildation')])
 
+
     <div class="form-group">
         <label>{{trans("language.is_hot_product")}}</label>
         <div class="input-group">
@@ -95,6 +95,20 @@
             <select required class="form-control " id="" name="is_hot_product">
                 <option value="1"> {{trans('language.hot_product')}}</option>
                 <option value="0"> {{trans('language.not_hot_product')}}</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label>{{trans("هل المنتج شامل الضريبه ؟")}}</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class='fa fa-list'></i></span>
+            </div>
+            <select required class="form-control " id="" name="is_vat_included">
+                <option value="1"> {{trans('شامل الضريبة')}}</option>
+                <option value="0"> {{trans('غير شامل الضريبة')}}</option>
             </select>
         </div>
     </div>

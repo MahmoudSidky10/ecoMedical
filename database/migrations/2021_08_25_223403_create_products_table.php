@@ -30,6 +30,7 @@ class CreateProductsTable extends Migration
             $table->string("is_deal_product")->default(0);
             $table->string("brand_id")->nullable();
             $table->string("category_id")->nullable();
+            $table->string("is_vat_included")->default(0)->nullable();
             $table->timestamps();
         });
     }

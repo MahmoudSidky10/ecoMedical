@@ -81,6 +81,7 @@ class Product extends Model
         "is_deal_product",
         "brand_id",
         "category_id",
+        "is_vat_included", // 0- not included, 1- included
     ];
 
     public function images()

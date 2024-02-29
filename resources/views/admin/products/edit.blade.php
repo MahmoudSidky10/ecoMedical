@@ -57,6 +57,23 @@
     @includeIf('admin.components.form.edit.number', ['icon' => 'fa fa-user','label' => trans('language.stock_quantity'),'name'=>'stock_quantity', 'placeholder'=>trans('language.stock_quantity' ),'valid'=>trans('language.vaildation')])
     @includeIf('admin.components.form.edit.text', ['icon' => 'fa fa-user','label' => trans('language.warranty_years'),'name'=>'warranty_years', 'placeholder'=>trans('language.warranty_years' ),'valid'=>trans('language.vaildation')])
 
+
+    <div class="form-group">
+        <label>{{trans("هل المنتج شامل الضريبه ؟")}}</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class='fa fa-list'></i></span>
+            </div>
+            <select required class="form-control " id="" name="is_vat_included">
+                <option @if($item->is_vat_included == 1 ) selected
+                        @endif value="1"> {{trans('شامل الضريبة')}}</option>
+                <option @if($item->is_vat_included == 0 ) selected
+                        @endif value="0"> {{trans('غير شامل الضريبة')}}</option>
+            </select>
+        </div>
+    </div>
+
+
     <div class="form-group">
         <label>{{trans("language.is_hot_product")}}</label>
         <div class="input-group">
