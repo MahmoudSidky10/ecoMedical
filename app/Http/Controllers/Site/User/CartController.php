@@ -144,32 +144,37 @@ class CartController extends Controller
         }
 
 
-        // Empty User Cart ..
-        CartProduct::where("cart_id", $cart->id)->delete();
-        $cart->delete();
+        // Empty User Cart .
+        //  CartProduct::where("cart_id", $cart->id)->delete();
+        //  $cart->delete();
 
         // return to invoice page
-        return redirect()->route("user.cart.products.invoice", $order->guid);
+        return redirect()->route("user.cart.products.checkout", $order->guid);
 
     }
 
     public function invoice($order_guid)
     {
-        $order = Order::where("guid", $order_guid)->first();
+       dd("invoice page");
+    }
+    
+     public function checkout($order_guid)
+    {
+         $order = Order::where("guid", $order_guid)->first();
         $user = User::find($order->user_id);
         
-        $return   = "";
-        $callback = "";
+        $return   = route("site.home");
+        $callback =  route("site.home");
         
-        $pay = paypage::sendPaymentCode("mada")
+        $pay = paypage::sendPaymentCode("all")
             ->sendTransaction('sale','ecom')
-            ->sendCart($order->id, (float)$order->total, $order->id)
+            ->sendCart($order->id . rand(1111,9999), (float)$order->total, $order->id)
             ->sendCustomerDetails($user->name, $user->email, $user->mobile, "street name", "city name", "state name", "country name", "123456", "12345678")
            // ->sendShippingDetails($same_as_billing, $name = null, $email = null, $phone = null, $street1= null, $city = null, $state = null, $country = null, $zip = null, $ip = null)
-            ->sendHideShipping($on = false)
+            ->sendHideShipping(true)
             ->sendURLs($return, $callback)
             ->sendLanguage("ar")
-            ->sendFramed($on = false)
+            ->sendFramed(true)
             ->create_pay_page(); // to initiate payment page
 
 

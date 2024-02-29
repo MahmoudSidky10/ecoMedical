@@ -32,5 +32,11 @@ Route::post('/user-cart-products-store', 'User\CartController@store')->name("use
 Route::get('/user-cart-products-invoice/{id}', 'User\CartController@invoice')->name("user.cart.products.invoice");
 
 
+// payment
+Route::get('/user-cart-products-checkout/{id}', 'User\CartController@checkout')->name("user.cart.products.checkout");
+
+
+
+
 
 
