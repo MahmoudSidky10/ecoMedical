@@ -105,7 +105,7 @@
                                             </div>
 
                                             <div class="product-sku pt-2 ">
-
+                                                {{__("حاله التوصيل")}} :
                                                 @if($productPrice >= $setting->delivery_min_price)
                                                     <span>     {{__("شامل التوصيل")}} </span>
                                                 @else
