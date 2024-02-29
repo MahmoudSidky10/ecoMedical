@@ -33,7 +33,8 @@ class Setting extends Model
         "app_logo",
         "app_color",
         "app_currency",
-        "app_description"
+        "app_description",
+        "delivery_min_price", // if product price is less than this value , it will be free
     ];
 
     public function toArray()

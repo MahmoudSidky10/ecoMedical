@@ -25,5 +25,9 @@
     @includeIf('admin.components.form.edit.textarea', ['icon' => '','label' => trans('language.description'),'name'=>'app_description', 'placeholder'=>trans('language.description' ),'valid'=>trans('language.vaildation')])
 
 
+    @includeIf('admin.components.form.edit.text', ['icon' => 'fa fa-user','label' => trans('السعر الادني لتطبيق مبلغ التوصيل'),'name'=>'delivery_min_price', 'placeholder'=>trans('السعر الادني لتطبيق مبلغ التوصيل' ),'valid'=>trans('language.vaildation')])
+
+
+
 @endsection
 @section('submit-button-title' , trans("language.edit"))

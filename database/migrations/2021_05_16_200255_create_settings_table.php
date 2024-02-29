@@ -20,6 +20,7 @@ class CreateSettingsTable extends Migration
             $table->string("app_color")->default("#42a4e8");
             $table->string("app_currency")->default("شيكل");
             $table->longText("app_description")->nullable();
+            $table->string("delivery_min_price")->default(0)->nullable();
             $table->timestamps();
         });
     }
